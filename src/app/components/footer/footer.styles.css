@@ -1,0 +1,26 @@
+.footer {
+  position: relative;
+  background: url("../../assets/bg-footer.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+}
+
+.footer::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.91);
+  z-index: 1;
+}
+
+.footer .inner-content {
+  position: relative;
+  z-index: 2; /* Ensure the content is above the overlay */
+  padding: 15px;
+  width: 100%;
+}/*# sourceMappingURL=footer.styles.css.map */

@@ -1,0 +1,12 @@
+
+@keyframes scale-logo {
+    0%   {transform: scale(110%);}
+    15%  {transform: scale(130%);}
+    25%  {transform: scale(140%);}
+    50%  {transform: scale(130%);}
+    75%  {transform: scale(120%);}
+    100% {transform: scale(110%);}
+}
+.animated-logo{
+  animation: scale-logo 3s linear infinite;
+}

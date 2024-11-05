@@ -1,0 +1,204 @@
+.fAQsSection {
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 1rem;
+  margin: 4.5rem auto;
+  color: black;
+  width: 100%;
+}
+.fAQsSection .mainContainer {
+  margin: 2.5rem auto;
+}
+.fAQsSection .fAQsSectionTitle {
+  font-size: 38px;
+  margin-top: 4rem;
+  font-weight: 700;
+}
+.fAQsSection .mainContainer .titleAndEmailAndLinks {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  flex-wrap: wrap;
+  padding: 0 0.5rem;
+  gap: 1rem;
+}
+.socialLinks {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2.5rem;
+}
+.fAQsSection .mainContainer .titleAndparagraph p {
+  max-width: 400px;
+  font-style: normal;
+  font-weight: 200;
+  margin-top: 0.3rem;
+  font-size: 16px;
+}
+.fAQsSection .container {
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 2.5rem;
+  margin: 5.5rem auto;
+}
+.fAQsSection .container .faqcontainer {
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  border-collapse: collapse;
+}
+.fAQsSection .container .faqcontainer .question {
+  border: 0.3px solid rgb(0, 0, 0);
+  border-left: none;
+  border-right: none;
+  padding: 40px 15px 20px 0px;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  width: 100%;
+  border-collapse: collapse;
+  cursor: pointer;
+}
+.faqNumber {
+  margin-right: 6rem;
+  font-size: 10px;
+  font-weight: 500;
+}
+.fAQsSection .container .faqcontainer .question .flexQuestion {
+  align-items: center;
+  justify-content: space-between;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.fAQsSection .container .faqcontainer .question .flexQuestion .questionText {
+  display: flex;
+  align-items: center;
+}
+.fAQsSection .container .faqcontainer .question .flexQuestion .icon {
+  transition: transform 0.4s ease;
+  font-size: 16px;
+  font-weight: 500;
+}
+.fAQsSection .container .faqcontainer .question .flexQuestion .iconOpen {
+  transform: rotate(180deg);
+}
+.fAQsSection .container .faqcontainer .question .answer {
+  font-size: 14px;
+  font-weight: 200;
+  height: 0;
+  overflow: hidden;
+  transition: all 0.4s ease;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-left: 8rem;
+  margin: 0;
+}
+.fAQsSection .container .faqcontainer .question .answer .mainFlex {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.fAQsSection
+  .container
+  .faqcontainer
+  .question
+  .answer
+  .mainFlex
+  .titlesContainer {
+  display: flex;
+  align-items: flex-start;
+  gap: 2rem;
+  flex-direction: column;
+  flex-wrap: wrap;
+  text-wrap: wrap;
+}
+
+.fAQsSection .container .faqcontainer .question .answer div strong {
+  font-weight: 700;
+  margin-right: 4rem;
+}
+.fAQsSection .container .faqcontainer .question .answerOpen {
+  height: 290px;
+  padding-top: 5rem;
+}
+.sendCVButton {
+  background-color: black;
+  color: white;
+  padding: 8px 40px;
+  border: none;
+  cursor: pointer;
+  margin-top: 8px;
+  transition: 0.2s all;
+  font-size: 12px;
+  margin-left: 0.5rem;
+  margin-top: 2rem;
+}
+.sendCVButton:hover {
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+}
+@media (max-width: 1150px) {
+  .fAQsSection .mainContainer {
+    width: 1000px;
+    
+  }
+  .fAQsSection .container .faqcontainer .question .answer {
+
+    padding-left: 1rem;
+   
+  }
+}
+@media (max-width: 992px) {
+  .fAQsSection .mainContainer {
+    max-width: 800px;
+    
+  }
+  .fAQsSection .container .faqcontainer .question {
+    padding: 20px 11px 15px 0px;
+    gap: 1.2rem;
+    max-width: 100%;
+  }
+  .fAQsSection .container .faqcontainer .question .flexQuestion {
+    font-size: 20px;
+    font-weight: 500;
+  }
+  .fAQsSection .container .faqcontainer .question .answer {
+    padding-left: 0.7rem;
+  }
+}
+
+@media (max-width: 810px) {
+  
+}
+@media (max-width: 576px) {
+  .fAQsSection .fAQsSectionTitle {
+    font-size: 24px;
+  }
+  .fAQsSection .container .faqcontainer .question .flexQuestion {
+    font-size: 12px;
+  }
+  .fAQsSection .container .faqcontainer .question .answer {
+    font-size: 12px;
+  }
+}
+@media (max-width: 400px) {
+  .solutionsSection .container .normalCard {
+    flex-wrap: wrap;
+  }
+  .fAQsSection .fAQsSectionTitle {
+    font-size: 22px;
+  }
+  .fAQsSection .container {
+    width: 98%;
+  }
+
+}

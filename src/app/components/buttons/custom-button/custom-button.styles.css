@@ -1,0 +1,73 @@
+.button-container {
+  letter-spacing: 0.5px;
+  font-size: 10px;
+  background-color: transparent;
+  color: white;
+  text-transform: uppercase;
+  font-weight: bolder;
+  border: 1px solid rgba(101, 101, 101, 0.812);
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.button-container:hover {
+  background-color: white;
+  color: black;
+}
+.button-container.scrolled {
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+}
+.button-container.scrolled:hover {
+  background-color: black;
+  color: white;
+  border: 1px solid black;
+
+}
+.button-container.portfolio {
+  background-color: transparent;
+  color: black;
+  border: 1px solid black;
+}
+.button-container.portfolio:hover {
+  background-color: black;
+  color: white;
+  border: black;
+}
+.button-container.portfolio.scrolled {
+  background-color: black;
+  color: white;
+  border: 1px solid white;
+}
+.button-container.portfolio.scrolled:hover {
+  background-color: white;
+  color: black;
+  border: none;
+}
+.button-container.google-sign-in {
+  background-color: #4285f4;
+  color: white;
+}
+
+.button-container.google-sign-in:hover {
+  background-color: #357ae8;
+  border: none;
+}
+.button-container .custom-button {
+  min-width: 155px;
+  width: 155px;
+  padding: 9px;
+
+}
+.button-container.inverted {
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+}
+.button-container.inverted:hover {
+  background-color: black;
+  color: white;
+  border: none;
+}
